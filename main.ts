@@ -22,6 +22,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
     mySprite2.destroy()
     mySprite2.destroy(effects.fire, 100)
     info.changeScoreBy(1)
+    mySprite.say("i like ur cut G")
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     mySprite2.destroy()
